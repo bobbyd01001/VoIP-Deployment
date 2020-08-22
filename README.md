@@ -5,3 +5,5 @@ This will Automate most of the installation of Asterisk and FreePBX from source.
 once complete you will have a custom VoIP server.
 Once installation is complete open your web browser to http://serverip
 this will complete the post setup of FreePBX.
+
+also will install Webmin server management console for server management via web browser
