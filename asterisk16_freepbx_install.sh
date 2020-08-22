@@ -237,7 +237,14 @@ systemctl restart apache2
 echo "open your web browser to http://host_ip/"
 
 echo "to complete post installation...."
-
+echo ""
+echo "I WILL NOW INSTALL WEBMIN SERVER WEB MANAGEMENT CONSOLE"
+sleep 3
+echo "deb http://download.webmin.com/download/repository sarge contrib" >> /etc/apt/sources.list
+wget -q -O- http://www.webmin.com/jcameron-key.asc | apt-key add
+apt update
+apt -y install webmin 
+apt install -f
 
 
 
